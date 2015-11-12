@@ -32,7 +32,7 @@ public class InjectedResource extends Application {
 
 	// This attribute is going to be injected thru initializer method injection (supported too)
 	private String inMethod;
-
+	
 	/**
 	 * Represents setInMethod
 	 *
@@ -45,7 +45,7 @@ public class InjectedResource extends Application {
 		final String arg) {
 		inMethod = arg;
 	}
-
+	
 	/**
 	 * Represents getInjectedString
 	 *
