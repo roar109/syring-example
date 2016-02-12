@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.jee.api.version>7.0</java.jee.api.version>
 		<syring.version>1.1.0-SNAPSHOT</syring.version>
-		<wilfy.swarm.version>1.0.0.Alpha5</wilfy.swarm.version>
+		<wilfy.swarm.version>1.0.0.Alpha8</wilfy.swarm.version>
 	</properties>
 
 	<dependencies>
@@ -33,19 +33,19 @@
 
 		<dependency>
 			<groupId>org.wildfly.swarm</groupId>
-			<artifactId>wildfly-swarm-ejb</artifactId>
+			<artifactId>ejb</artifactId>
 			<version>${wilfy.swarm.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.wildfly.swarm</groupId>
-			<artifactId>wildfly-swarm-jaxrs-weld</artifactId>
+			<artifactId>jaxrs-weld</artifactId>
 			<version>${wilfy.swarm.version}</version>
 		</dependency>
 	</dependencies>
 
 	<build>
-		<finalName>${project.artifactId}</finalName>
+		<finalName>${project.name}</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -58,6 +58,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
