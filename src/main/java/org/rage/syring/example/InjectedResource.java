@@ -12,7 +12,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.Response;
 
-import org.rage.syring.annotation.ApplicationProperty;
+import com.github.roar109.syring.annotation.ApplicationProperty;
+
 
 /**
  * @author hector.mendoza

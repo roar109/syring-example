@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.jee.api.version>7.0</java.jee.api.version>
-		<syring.version>1.1.0-SNAPSHOT</syring.version>
+		<syring.version>1.0.1</syring.version>
 		<wilfy.swarm.version>1.0.0.Alpha8</wilfy.swarm.version>
 	</properties>
 
@@ -26,7 +26,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.rage</groupId>
+			<groupId>com.github.roar109</groupId>
 			<artifactId>syring</artifactId>
 			<version>${syring.version}</version>
 		</dependency>
